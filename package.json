@@ -1,0 +1,26 @@
+{
+  "name": "koa-chat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takyam-git/koa-chat.git"
+  },
+  "keywords": [
+    "koa",
+    "chat"
+  ],
+  "author": "takyam <takayuki.yamaguch.m@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takyam-git/koa-chat/issues"
+  },
+  "dependencies": {
+    "koa-common": "~1.1.0"
+  }
+}
