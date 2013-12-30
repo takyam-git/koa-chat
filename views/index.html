@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block title %}Koa-chat{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-md-2">
+		<span id="label-online" class="label label-success" style="display: none;">ONLINE</span>
+		<span id="label-offline" class="label label-default" style="display: none;">OFFLINE</span>
+	</div>
+	<div class="col-md-8">
+		<form id="form">
+			<input type="text" id="input" class="form-control">
+		</form>
+		<hr>
+		<div id="rows"></div>
+	</div>
+	<div class="col-md-2"></div>
+</div>
+{% endblock %}

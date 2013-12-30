@@ -21,6 +21,13 @@
     "url": "https://github.com/takyam-git/koa-chat/issues"
   },
   "dependencies": {
-    "koa-common": "~1.1.0"
+    "koa-common": "~1.1.0",
+    "koa": "~0.2.0",
+    "koa-route": "~1.0.2",
+    "co-views": "~0.1.0",
+    "koa-static": "~1.4.0",
+    "swig": "~1.2.2",
+    "socket.io": "~0.9.16",
+    "moment": "~2.5.0"
   }
 }
